@@ -1,0 +1,39 @@
+BASIC GIT COMMANDS SUMMARY :
+
+git init: Initialize a new repository.
+git add: Stage files for commit.
+git commit: Commit staged files.
+git status: Show the status of the working directory.
+git pull: Fetch and merge changes from a remote repository.
+git push: Push changes to a remote repository.
+git branch: Manage branches.
+git branch "name of the branch": create new branches.
+git checkout: Switch between branches.
+git log : View commit history.
+git diff : to check the changes in the file.
+git checkout "name of the new branch" : to change between branches.
+
+FOR ADDING NEW REPOSITORY :
+
+git init => (add git into directory).
+git add (check files > ls, ls -a.).
+git commit -m "(name of the commit)"(to check status > git status, git log).
+git remote add origin "git link".
+git push -u origin main.
+
+TO REMOVE FROM STAGING AREA LOCAL REPOSITARY :
+
+git rm --cached -r .
+git rm --cached -r <file-name>
+
+TO ADD NEW PROJECT FROM GITHUB TO LOCAL REPPOSITORY :
+
+git clone "url".
+cd "directory"
+npm install.
+npm start.
+
+FOR MERGING AND CLONING NEW PROJECTS FROM GITHUB :
+
+git branch "name of the branch"
+git merge "name of the branch"
